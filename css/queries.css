@@ -1,0 +1,524 @@
+@media only screen and (max-width: 1660px) {
+    .destination-slide {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-left: 2%;
+    }
+}
+
+/* Big table to desktop 1024px to 1200px */
+@media only screen and (max-width: 1200px) {
+    .nav-header-top {
+        justify-content: space-around;
+    }
+
+    .nav-header-bot {
+        justify-content: space-around;
+    }
+
+    .header-title {
+        padding-left: 5%;
+    }
+
+    .form-book-layer form div input {
+        width: 90%;
+    }
+
+    .populer-place {
+        padding-left: 5%;
+    }
+
+    .populer-tabs-layer {
+        justify-content: space-around;
+    }
+
+    .populer-tabs-layer img {
+        width: 80%;
+        height: 100%;
+    }
+
+    .image-with-text {
+        width: 80%;
+    }
+
+    .title-tabs {
+        width: 80%;
+    }
+
+    .tabs-slide-1 {
+        width: 100% !important;
+    }
+
+    .holiday-layer {
+        display: inline-flex;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .holiday-right {
+        width: 60%;
+    }
+
+    .slider-discount {
+        width: 1023px;
+    }
+
+    .content-1 {
+        width: 370px;
+        display: block;
+        padding-top: 5%;
+    }
+
+    .content-1:last-child {
+        margin-left: 0;
+    }
+
+    .content-big-dael {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .contact-layer {
+        padding-left: 5%;
+    }
+
+    .slide {
+        height: auto;
+    }
+
+    .title-slide {
+        width: 50%;
+        height: 100%;
+    }
+
+}
+
+/* Small tablet to big tablet 768px to 1023 */
+@media only screen and (max-width: 1023px) {
+    .holiday-layer {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .holiday-left {
+        padding-right: 0;
+    }
+
+    .holiday-right {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 6%;
+    }
+
+    .slider-discount {
+        width: 100%;
+    }
+
+    .slide {
+        height: auto;
+    }
+
+    .img-layer {
+        height: auto !important;
+    }
+
+    .tabs-slide-1 {
+        align-items: flex-start !important;
+    }
+
+    .tabs-layer a {
+        padding: 5px;
+    }
+
+    .form-book-layer form div input {
+        padding-left: 5%;
+    }
+}
+
+/* Small phones to small tablets 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .header-social-icon a {
+        margin: 0px !important;
+    }
+
+    #logo-8192 {
+        top: -60% !important;
+    }
+
+    .nav-bot {
+        display: inline-block;
+        text-align: justify;
+        position: relative;
+        width: 100%;
+    }
+
+    .nav-bot nav {
+        display: block;
+        background-color: rgba(93, 94, 91, 0.8);
+        position: absolute;
+        width: 150px;
+        transition: 0.5s;
+        top: 55px;
+        right: 0px;
+        visibility: hidden;
+        opacity: 0;
+        padding: 5px;
+    }
+
+    .nav-bot nav a {
+        font-size: 25px;
+        padding-left: 0 !important;
+        padding: 10px 5px 10px 5px;
+    }
+
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        top: 25px;
+        right: 5px !important;
+        text-align: center;
+        line-height: 60px;
+        cursor: pointer;
+        transition: 0.5s;
+        transform: translateY(-70%);
+        color: #ffcc00;
+    }
+
+    .close-nav {
+        display: none;
+    }
+
+    #logo-8192 {
+        font-size: 81.92px;
+        position: absolute;
+        top: -90% !important;
+        left: -15%;
+        z-index: 1;
+    }
+
+    .form-book-layer form {
+        display: grid;
+        grid-template-columns: 100%;
+        height: fit-content;
+    }
+
+    .form-book-layer form div {
+        margin-top: 20px;
+    }
+
+    .btn-search #search {
+
+        transform: rotate(0deg);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn-search {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px !important;
+    }
+
+    .holiday-right {
+        width: 90%;
+        height: 90%;
+    }
+
+    .tabs-discount {
+        width: 100%;
+    }
+
+    .tab-1,
+    .tab-2,
+    .tab-3,
+    .tab-4 {
+        margin: 33px !important;
+    }
+
+    .slider-discount {
+        max-width: 481px;
+    }
+
+    .product-container {
+        width: 100%;
+    }
+
+    .populer-place {
+        text-align: center;
+    }
+
+    .populer-tabs-layer {
+        display: block;
+        text-align: center;
+    }
+
+    .image-with-text {
+        margin-bottom: 30px;
+    }
+
+    .title-tabs {
+        margin-left: 10%;
+    }
+
+    .slide {
+        height: auto;
+    }
+
+    .product-card {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .product-info {
+        display: block;
+    }
+
+    #get-ticket {
+        transform: rotate(0deg);
+    }
+
+    .info-left {
+        padding-left: 0;
+    }
+
+    .info-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-big-deal {
+        display: block;
+    }
+
+    .form-big-deal button {
+        margin-top: 20px;
+    }
+
+    .content-big-dael {
+        display: block;
+        padding-left: 12%;
+    }
+
+    .content-big-dael .content-1 {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .contact-layer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-left: 15%;
+    }
+
+    .contact-layer div {
+        padding-left: 10%;
+    }
+
+    footer {
+        display: block !important;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .form-big-deal input {
+        width: 260px;
+        border-top-right-radius: 3pt;
+        border-bottom-right-radius: 3pt;
+    }
+
+    .tabs-slide-1 {
+        display: block !important;
+    }
+
+    .destination-slide {
+        height: 1100px !important;
+    }
+
+    .discount-layer {
+        text-align: center;
+    }
+
+    .tabs-layer {
+        text-align: center;
+    }
+
+    .tabs-discount {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        width: 100%;
+    }
+
+    .slider-discount {
+        width: 100%;
+    }
+
+    .pre-btn {
+        left: 0;
+    }
+
+    .product-card {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tabs-slide-1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .img-layer {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .content-1 {
+        width: 100%;
+    }
+}
+
+/* Small phones form 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .nav-bot {
+        top: 10px;
+    }
+
+    .nav-header-top {
+        display: block;
+        text-align: center;
+    }
+
+    .header-title h1 {
+        font-size: 40px;
+    }
+
+    .form-book-layer form div {
+        margin-left: 25px !important;
+    }
+
+    .btn-search {
+        width: 82% !important;
+    }
+
+    #search {
+        width: 100% !important;
+    }
+
+    .title-slide {
+        height: 60%;
+    }
+
+    .title-slide span {
+        font-size: 15px;
+    }
+
+    .nav-slider a {
+        padding: 5px !important;
+        font-size: 12px;
+    }
+
+    .destination-slide {
+        display: block;
+        height: 100vh !important;
+    }
+
+    .tabs-slide-1 {
+        display: inline-block !important;
+        width: 100%;
+        height: 600px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .img-layer {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .tabs-title {
+        padding-right: 0%;
+    }
+
+    .tabs-layer {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    .tabs-layer h4 {
+        margin-top: 10px;
+    }
+
+    .tabs-discount {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .product-card {
+        width: 100%;
+        margin-left: auto;
+        padding-left: 10px;
+    }
+
+    .slider-discount {
+        width: 270px;
+    }
+
+    .form-big-deal input {
+        width: 260px;
+        border-top-right-radius: 3pt;
+        border-bottom-right-radius: 3pt;
+    }
+
+    .container-big-deal button {
+        border-top-left-radius: 3pt;
+        border-bottom-left-radius: 3pt;
+
+    }
+
+    .content-1 {
+        width: 100%;
+        padding-right: 10%;
+    }
+
+    .img-content-layer {
+        height: auto;
+    }
+
+    .contact-layer {
+        display: block;
+        padding-left: 20px !important;
+    }
+
+    #logo-8192-2 {
+        left: 0px;
+    }
+
+    .phone {
+        margin-bottom: 40px;
+    }
+
+    .logo-header-2 {
+        left: -10%;
+    }
+
+    .contact-social-icon {
+        padding-left: 0 !important;
+    }
+
+    .slider-discount {
+        width: 100%;
+    }
+
+    .destination-slide {
+        height: fit-content !important;
+    }
+
+    .tabs-discount {
+        text-align: center;
+    }
+}
